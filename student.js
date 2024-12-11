@@ -32,4 +32,6 @@ for (let i = 0; i < studentArr.length; i++) {
 }
 console.log("-------------------------------");
 
+console.log("Hello");
+
 // include in lab file.
