@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUM OF 3 NUMBERS</title>
+    <script>
+        function sumOfThreeNumbers() {
+            let a=document.getElementById("n1").value
+            let p=Number(a)
+            let b=document.getElementById("n2").value
+            let q=Number(b)
+            let c=document.getElementById("n3").value
+            let r=Number(c)
+            document.writeln(p+q+r)
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Sum of 3 numbers</h1>
+    <h2>Enter first number:
+        <input type="text" id="n1"><br>
+    </h2>
+    <h2>Enter second number:
+        <input type="text" id="n2"><br>
+    </h2>
+    <h2>Enter third number:
+        <input type="text" id="n3"><br>
+    </h2>
+    <button type="button" onclick="sumOfThreeNumbers()">Click me for sum</button>
+
+</body>
+</html>
+

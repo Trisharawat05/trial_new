@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRODUCRTION TO JAVASCRIPT</title>
+    <script>
+        function eligible()
+        {
+            let age=document.getElementById("t1").value;
+            if(age<18){
+            document.writeln("Not eligible to vote")
+            }
+            else{
+            document.writeln("Eligible to vote")
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>First program of function in JavaScript</h1><br>
+    <form>
+        <h2>Enter age:
+        <input type="text" id="t1"></h2><br>
+        <button type="button" onclick="eligible()">click me</button>
+    </form>     
+</body>
+</html>
+
+<!-- check eligibility, print hello world, sum of 3 numbers -->
